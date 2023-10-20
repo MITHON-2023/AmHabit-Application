@@ -10,4 +10,15 @@ $sql = "create table users(
     ";
     
 mysqli_query($con, $sql);
+
+$sql = "create table habit(
+    id int not null auto_increment,
+    content1 varchar(50),
+    day1 int,
+    content2 varchar(50),
+    day2 int,
+    primary key(id));
+    ";
+
+mysqli_query($con, $sql);
 ?>

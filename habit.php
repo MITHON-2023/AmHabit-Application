@@ -11,4 +11,6 @@ $day2 = $_POST['inputDay2'];
 $sql = "INSERT INTO habit (content1, day1, content2, day2) VALUES ('$content1', '$day1', '$content2', '$day2')";
 
 mysqli_query($con, $sql);
+
+echo "<script>location.href = 'home.html';</script>";
 ?>
