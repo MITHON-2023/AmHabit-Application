@@ -9,6 +9,6 @@ $sql = "select * from users where phone = '$phone' and password = '$password'";
 
 $result = mysqli_query($con, $sql);
 
-if(mysqli_num_rows($result) == 0) echo "<script>alert('로그인에 실패');</script>";
-else echo "<script>alert('로그인되었습니다.');</script>";
+if(mysqli_num_rows($result) == 0) echo "<script>location.href = 'loginFailed.html';</script>";
+else echo "<script>location.href = 'loginSucceed.html';</script>";
 ?>

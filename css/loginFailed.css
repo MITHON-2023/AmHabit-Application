@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50%;
+}
+
+/*icon의 크기를 %로 할 수는 없을까*/
+ion-icon {
+  width: 160px;
+  height: 160px;
+  color: #ea1c1c;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-check {
+  position: fixed;
+  bottom: 0;
+  width: 89%;
+  margin: 20px;
+  padding: 18px;
+  border-radius: 12px;
+  border: solid 1px #e12222;
+  background: #e12222;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

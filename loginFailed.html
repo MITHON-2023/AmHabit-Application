@@ -5,24 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/loginSucceed.css">
+    <link rel="stylesheet" href="css/loginFailed.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <title>로그인 성공</title>
+    <title>로그인 실패</title>
 </head>
 
 <body>
 
     <main>
         <ion-icon name="checkmark-circle-outline"></ion-icon>
-        <p>로그인이 완료되었어요!</p>
+        <p>로그인에 실패하였습니다!</p>
     </main>
 
-    <button type="button" class="signup-check">확인</button>
-
+    <button type="button" id="button" class="signup-check">확인</button>
 
     <script>
-        location.href = "home.html";
+        var button = document.getElementById("button");
+
+        button.addEventListener('click', e => {
+            location.href = "index.html"
+        })
     </script>
 </body>
 
