@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    text-align: center;
+    font-weight: 900;
+    font-size: 4vmin;
+}
+
+hr {
+    background: #dfdfdf;
+    height:1px;
+    border:0;
+}
+
+h1{
+    color: #5EAB6E;
+    font-family: Noto Sans Hebrew New;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.inputDIV{
+    width: 282px;
+    height: 160px;
+    box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.checkBtn{
+    width: 255px;
+    height: 67px;
+    border-radius: 5px;
+    border: 1px solid #5EAB6E;
+    background: #5EAB6E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Quantico;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: lowercase;
+    color: #fff;
+    margin-left: 53px;
+    margin-top: 40px;
+}
