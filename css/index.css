@@ -1,42 +1,46 @@
 * {
-    margin: 0;
-    padding : 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container-logo {
-    padding-top: 70vmin;
-    padding-left: 4vmin;
+  position: relative;
+  padding-top: 70vmin;
+  padding-left: 4vmin;
+  color: white;
 }
 
-.container-logo img {
-    position: relative;
-    z-index: 900;
+.container-logo p {
+  margin-left: 1.5vmin;
+  margin-top: 5vmin;
+  font-size: 5vmin;
+  font-family: "Roboto";
 }
 
 .container-background img {
-    width: 100%;
-    position: absolute;
+  width: 100%;
+  position: absolute;
 }
 
 h4 {
-    position: absolute;
-    bottom: 15vmin;
-    font-size: 3.4vmin;
-    font-weight: 500;
-    transform: translate(53%, -50%);
-    text-decoration: underline;
+  position: absolute;
+  bottom: 15vmin;
+  font-size: 3.4vmin;
+  font-weight: 500;
+  transform: translate(53%, -50%);
+  text-decoration: underline;
 }
 
 button[type="submit"] {
-    position: absolute;
-    width: 80vw;
-    height: 12vmin;
-    border: 0;
-    border-radius: 6px;
-    background-color: #5EAB6E;
-    color: white;
-    font-size: 3.5vw;
-    bottom: 25vmin;
-    left: 10%;
-    z-index: 99999;
+  position: absolute;
+  width: 80vw;
+  height: 12vmin;
+  border: 0;
+  border-radius: 6px;
+  background-color: #5eab6e;
+  color: white;
+  font-size: 3.5vw;
+  bottom: 25vmin;
+  left: 10%;
+  z-index: 99999;
 }

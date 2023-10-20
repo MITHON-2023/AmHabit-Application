@@ -11,8 +11,6 @@
   font-size: 4vmin;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
-
 td {
   width: 50vmin;
   height: 14vmin;
@@ -62,6 +60,7 @@ td {
   background-color: #ffffff;
   cursor: pointer;
 }
+
 .futureDay:hover {
   background: #eee;
 }
