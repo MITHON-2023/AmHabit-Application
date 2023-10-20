@@ -13,23 +13,14 @@
 
 @import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
 
-div {
-  background-color: white;
-  height: auto;
-  width: 400px;
-  margin: 0px;
-  padding: 20px;
-  margin: 0 auto;
-  border-radius: 5px;
-  box-shadow: 0px 40px 30px -20px rgba(0, 0, 0, 0.3);
-}
-
 td {
-  width: 50px;
-  height: 50px;
+  width: 50vmin;
+  height: 14vmin;
 }
 
 .Calendar {
+  width: 10vmin;
+  margin-left: 5vmin;
   margin-top: 5vmin;
   text-align: center;
 }
@@ -47,12 +38,11 @@ td {
 
 .Calendar > tbody > tr > td > p {
   font-family: "Montserrat", sans-serif;
-  height: 45px;
-  width: 45px;
+  height: 12vmin;
+  width: 12vmin;
   border-radius: 45px;
   transition-duration: 0.2s;
-  line-height: 45px;
-  margin: 2.5px;
+  line-height: 12vmin;
   display: block;
   text-align: center;
 }
