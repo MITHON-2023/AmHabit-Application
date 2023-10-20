@@ -16,12 +16,27 @@
 
     <form method="post" action="#">
         <div class="H1">
-            <h1>목표 완수까지</h1>
+            <h1>
+                <?php
+                
+                include "db_conn.php";
+
+                $sql = "select * from habit order by id desc";
+                $result = mysqli_query($con, $sql);
+
+                $row = mysqli_fetch_array($result);
+
+                echo $row["content1"];
+                ?>
+        </h1>
+
+        <h1> Day - <?php echo $row["day1"]; ?> </h1>
             <button type="button">수정하기</button>
         </div>
 
         <div class="H2">
-            <h1>목표 완수까지</h1>
+            <h1><?php echo $row["content2"]; ?></h1>
+            <h1>Day - <?php echo $row["day2"]; ?></h1>
             <button type="button">수정하기</button>
         </div>
 
