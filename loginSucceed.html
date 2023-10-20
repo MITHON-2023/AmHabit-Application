@@ -18,11 +18,15 @@
         <p>로그인이 완료되었어요!</p>
     </main>
 
-    <button type="button" class="signup-check">확인</button>
+    <button type="button" id="button" class="signup-check">확인</button>
 
 
     <script>
-        location.href = "home.html";
+        var button = document.getElementById("button");
+
+        button.addEventListener('click', e => {
+            location.href = "home.html";
+        })
     </script>
 </body>
 

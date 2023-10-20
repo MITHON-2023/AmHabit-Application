@@ -15,30 +15,38 @@
 
     <hr>
 
-    <table class="Calendar">
-        <thead>
-            <tr>
-                <td onClick="prevCalendar();" style="cursor:pointer;">&#60;</td>
-                <td colspan="5">
-                    <span id="calYear"></span>년
-                    <span id="calMonth"></span>월
-                </td>
-                <td onClick="nextCalendar();" style="cursor:pointer;">&#62;</td>
-            </tr>
-            <tr>
-                <td>일</td>
-                <td>월</td>
-                <td>화</td>
-                <td>수</td>
-                <td>목</td>
-                <td>금</td>
-                <td>토</td>
-            </tr>
-        </thead>
+    <form method="post" action="#">
+        <table class="Calendar">
+            <thead>
+                <tr>
+                    <td onClick="prevCalendar();" style="cursor:pointer;">&#60;</td>
+                    <td colspan="5">
+                        <span id="calYear"></span>년
+                        <span id="calMonth"></span>월
+                    </td>
+                    <td onClick="nextCalendar();" style="cursor:pointer;">&#62;</td>
+                </tr>
+                <tr>
+                    <td>일</td>
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                </tr>
+            </thead>
 
-        <tbody>
-        </tbody>
-    </table>
+            <tbody>
+            </tbody>
+        </table>
+    </form>
+
+    <div class="bottom-nav">
+        <a href="calendar.html"><img src="image/plan_enable.svg" alt="Plan"></a>
+        <a href="home.html"><img src="image/home_disable.svg" alt="Home"></a>
+        <a href="#"><img src="image/list_disabled.png" alt="List"></a>
+    </div>
 
     <script src="js/calendar.js"></script>
 </body>
