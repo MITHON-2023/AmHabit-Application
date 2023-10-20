@@ -31,13 +31,13 @@
         </h1>
 
         <h1> Day - <?php echo $row["day1"]; ?> </h1>
-            <button type="button">수정하기</button>
+            <button type="button" onclick="button()">수정하기</button>
         </div>
 
         <div class="H2">
             <h1><?php echo $row["content2"]; ?></h1>
             <h1>Day - <?php echo $row["day2"]; ?></h1>
-            <button type="button">수정하기</button>
+            <button type="button" onclick="button()">수정하기</button>
         </div>
 
 
@@ -47,6 +47,13 @@
             <a href="#"><img src="image/list_disabled.png" alt="List"></a>
         </div>
     </form>
+
+    <script>
+
+        function button() {
+            location.href = "home1.html";
+        }
+    </script>
 </body>
 
 </html>
