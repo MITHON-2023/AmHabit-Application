@@ -74,11 +74,15 @@ td {
 }
 
 .bottom-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  padding: 8px;
+  position: absolute;
+  width: 80vw;
+  height: 12vmin;
+  border: 0;
+  border-radius: 6px;
+  color: white;
+  font-size: 11vw;
+  bottom: 5vmin;
+  left: 13vmin;
+  word-spacing: 25vmin;
+  z-index: 99999;
 }
