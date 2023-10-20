@@ -44,7 +44,7 @@
         <div class="bottom-nav">
             <a href="calendar.html"><img src="image/plan_disabled.png" alt="Plan"></a>
             <a href="home.html"><img src="image/home_enable.png" alt="Home"></a>
-            <a href="#"><img src="image/list_disabled.png" alt="List"></a>
+            <a href="list.html"><img src="image/list_disabled.png" alt="List"></a>
         </div>
     </form>
 
