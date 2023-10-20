@@ -86,3 +86,15 @@ td {
   word-spacing: 25vmin;
   z-index: 99999;
 }
+
+.container-plan {
+  margin-left: 8vmin;
+}
+
+.plan1 {
+  margin-top: 5vmin;
+}
+
+.plan2 {
+  margin-top: 4vmin;
+}
